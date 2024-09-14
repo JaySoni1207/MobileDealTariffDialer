@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMessageListenerService", "OrderMessageListenerService.csproj", "{ACFE8D88-8C9E-46D2-B4C6-C73C8DE608D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFE8D88-8C9E-46D2-B4C6-C73C8DE608D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFE8D88-8C9E-46D2-B4C6-C73C8DE608D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFE8D88-8C9E-46D2-B4C6-C73C8DE608D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFE8D88-8C9E-46D2-B4C6-C73C8DE608D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
