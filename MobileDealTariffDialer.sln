@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMessageListenerServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{0AB30B0B-2819-4526-8597-3013042CCD5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{2D33582F-E829-428A-AADE-6EDD8D2DD82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D33582F-E829-428A-AADE-6EDD8D2DD82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D33582F-E829-428A-AADE-6EDD8D2DD82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D33582F-E829-428A-AADE-6EDD8D2DD82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D33582F-E829-428A-AADE-6EDD8D2DD82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
