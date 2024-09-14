@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ordermessagelistenerservice-deployment
+  labels:
+    app: ordermessagelistenerservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ordermessagelistenerservice
+  template:
+    metadata:
+      labels:
+        app: ordermessagelistenerservice
+    spec:
+      containers:
+      - name: ordermessagelistenerservice
+        image: ordermessagelistenerservice:latest
+        imagePullPolicy: Never

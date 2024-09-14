@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: invoicegenerationservice-deployment
+  labels:
+    app: invoicegenerationservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: invoicegenerationservice
+  template:
+    metadata:
+      labels:
+        app: invoicegenerationservice
+    spec:
+      containers:
+      - name: invoicegenerationservice
+        image: invoicegenerationservice:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5225

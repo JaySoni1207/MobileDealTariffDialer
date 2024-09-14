@@ -15,3 +15,41 @@ services:
       dockerfile: Dockerfile
     ports:
       - 5262:5262
+
+  invoicegenerationservice:
+    image: invoicegenerationservice:latest
+    build: 
+      context: InvoiceGenerationService
+      dockerfile: Dockerfile
+    ports:
+      - 5225:5225
+    
+  apigateway:
+    image: apigateway:latest
+    build: 
+      context: ApiGateway
+      dockerfile: Dockerfile
+    ports:
+      - 5259:5259
+    
+  orderinventoryservice:
+    image: orderinventoryservice:latest
+    build: 
+      context: OrderInventoryService
+      dockerfile: Dockerfile
+    ports:
+      - 5022:5022
+    
+  paymentservice:
+    image: paymentservice:latest
+    build: 
+      context: PaymentService
+      dockerfile: Dockerfile
+    ports:
+      - 5119:5119
+  
+  invoicemessagelistenerservice:
+    image: invoicemessagelistenerservice:latest
+    build: 
+      context: InvoiceMessageListenerService
+      dockerfile: Dockerfile

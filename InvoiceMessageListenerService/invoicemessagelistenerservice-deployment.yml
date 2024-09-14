@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: invoicemessagelistenerservice-deployment
+  labels:
+    app: invoicemessagelistenerservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: invoicemessagelistenerservice
+  template:
+    metadata:
+      labels:
+        app: invoicemessagelistenerservice
+    spec:
+      containers:
+      - name: invoicemessagelistenerservice
+        image: invoicemessagelistenerservice:latest
+        imagePullPolicy: Never

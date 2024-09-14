@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: paymentmessagelistenerservice-deployment
+  labels:
+    app: paymentmessagelistenerservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: paymentmessagelistenerservice
+  template:
+    metadata:
+      labels:
+        app: paymentmessagelistenerservice
+    spec:
+      containers:
+      - name: paymentmessagelistenerservice
+        image: paymentmessagelistenerservice:latest
+        imagePullPolicy: Never

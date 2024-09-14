@@ -10,6 +10,11 @@ docker-compose build
 
 # Step 2: Apply Kubernetes deployment and service files
 kubectl apply -f CustomerService/customerservice-deployment.yml
+kubectl apply -f ApiGateway/apigatewayservice-deployment.yml
+kubectl apply -f InvoiceGenerationService/invoicegeneration-deployment.yml
+kubectl apply -f OrderInventoryService/orderinventoryservice-deployment.yml
 kubectl apply -f OrderService/orderservice-deployment.yml
+kubectl apply -f PaymentService/paymentservice-deployment.yml
+kubectl apply -f InvoiceMessageListenerService/invoicemessagelistenerservice-deployment.yml
 
 echo "Applications have been deployed to Kubernetes!"

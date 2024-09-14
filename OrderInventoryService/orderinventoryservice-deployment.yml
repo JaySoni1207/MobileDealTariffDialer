@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orderinventoryservice-deployment
+  labels:
+    app: orderinventoryservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orderinventoryservice
+  template:
+    metadata:
+      labels:
+        app: orderinventoryservice
+    spec:
+      containers:
+      - name: orderinventoryservice
+        image: orderinventoryservice:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5022
