@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerService", "CustomerService\CustomerService.csproj", "{BF5D8EDB-4D15-47BC-88FB-B70B8AB2E6C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceGenerationService", "InvoiceGenerationService\InvoiceGenerationService.csproj", "{16C81DDD-F594-42BC-9D45-987D008A360C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceMessageListenerService", "InvoiceMessageListenerService\InvoiceMessageListenerService.csproj", "{542E72D1-739D-4799-88E6-D329E4B87D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderInventoryService", "OrderInventoryService\OrderInventoryService.csproj", "{E1CE2A99-9246-4D2E-9981-0B21D0445172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{5B5311B6-6852-4C9F-AE8E-4CE622EC5E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMessageListenerService", "PaymentMessageListenerService\PaymentMessageListenerService.csproj", "{0B1FA01B-9274-41E2-AB34-C8CC9DF3AD3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{0AB30B0B-2819-4526-8597-3013042CCD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5D8EDB-4D15-47BC-88FB-B70B8AB2E6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5D8EDB-4D15-47BC-88FB-B70B8AB2E6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5D8EDB-4D15-47BC-88FB-B70B8AB2E6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5D8EDB-4D15-47BC-88FB-B70B8AB2E6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C81DDD-F594-42BC-9D45-987D008A360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C81DDD-F594-42BC-9D45-987D008A360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C81DDD-F594-42BC-9D45-987D008A360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C81DDD-F594-42BC-9D45-987D008A360C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542E72D1-739D-4799-88E6-D329E4B87D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542E72D1-739D-4799-88E6-D329E4B87D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542E72D1-739D-4799-88E6-D329E4B87D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542E72D1-739D-4799-88E6-D329E4B87D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CE2A99-9246-4D2E-9981-0B21D0445172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CE2A99-9246-4D2E-9981-0B21D0445172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CE2A99-9246-4D2E-9981-0B21D0445172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CE2A99-9246-4D2E-9981-0B21D0445172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5311B6-6852-4C9F-AE8E-4CE622EC5E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5311B6-6852-4C9F-AE8E-4CE622EC5E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5311B6-6852-4C9F-AE8E-4CE622EC5E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5311B6-6852-4C9F-AE8E-4CE622EC5E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1FA01B-9274-41E2-AB34-C8CC9DF3AD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1FA01B-9274-41E2-AB34-C8CC9DF3AD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1FA01B-9274-41E2-AB34-C8CC9DF3AD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1FA01B-9274-41E2-AB34-C8CC9DF3AD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB30B0B-2819-4526-8597-3013042CCD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
